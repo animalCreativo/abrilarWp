@@ -3,7 +3,7 @@ $body-background404: #15210a;
 $h3-404: white;
 $p-404: white;
 $header-background: white;
-$footer-background: white;
+$footer-background: #2B8E0D;
 $footer-color: #BCC3CE;
 $card-background: transparent;
 $card-textcolor: #767E8B;
@@ -21,7 +21,7 @@ $card2-titulocolor: #02A9B6;
 $card2-titulocolor2: #FF336B;
 $btn2-textcolor: white;
 $btn2-bordercolor: #2691FB;
-$header-textcolor: #02A9B6;
+$header-textcolor: #868686;
 
 $toplogopadding-left: 20px;
 $toplogopadding-top: 20px;
@@ -72,28 +72,73 @@ li#rata {
 }
 
 #texto2Card2:before {
-
   color: $card2-titulocolor2;
   content: "Una barrera natural ";
 }
 #texto3Card2 span {
   color: $card2-titulocolor2;
 }
+
+
+#abriTextCard1Titulo1, #abriTextCard1Titulo2{
+  font-family:  Open+Sans;
+  font-weight: 800;   
+  font-size: 32px;
+}
+
+#abriTextCard1Titulo1 {
+  color: white;
+}
+#abriTextCard1Titulo2 {
+  color: #105800 ;
+}
+
+#abriTextCard1Parrafo{
+  font-family:  Open+Sans;
+  font-weight: 400;   
+  font-size: 16px;
+  color: #104500;
+}
+
+#abriTextCard2Parrafo{
+  font-family:  Open+Sans;
+  font-weight: 400;   
+  font-size: 16px;
+  color: #EBEBEB;
+}
+#abriTextCard2Titulo{
+  font-family:  Open+Sans;
+  font-weight: 800;   
+  font-size: 32px;
+  color: #61BB46;
+}
+
+#abriTextCard3Parrafo{
+  font-family:  Open+Sans;
+  font-weight: 600;   
+  font-size: 32px;
+  color: #145700;
+}
+
+
 #card21Div {
-  background: #F7F7F7;
+
+background: #429321; /* Old browsers */
+background: -moz-linear-gradient(top, #429321 0%, #b4ec51 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #429321 0%,#b4ec51 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=0 ); /* IE6-9 */
 
 }
 #card22Div {
-  background: #F0F0F0;
+  background: #145700;
   
 }
 #card23Div {
-  background: rgb(249,249,249); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(249,249,249,1) 0%, rgba(216,216,216,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(249,249,249,1) 0%,rgba(216,216,216,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(249,249,249,1) 0%,rgba(216,216,216,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#d8d8d8',GradientType=0 ); /* IE6-9 */
-  
+
+  background-image: url('assets/fondo.jpg');
+  background-size: cover;
+
 }
 div#example-menu {
     height: 100%;
@@ -205,7 +250,7 @@ a::after {
 }
 
 .card-section p {
-  color: $card-textcolor;
+  color: #868686;
 }
 
 .card2-section  {
@@ -213,16 +258,15 @@ a::after {
 }
 
 .card-section h5 {
-  color: $card-titulocolor;
-  text-transform: uppercase;
+  color: #2B8E0D;
   font-family:  Open+Sans;
-  font-weight: 300;   
-  font-size: 32px;
+  font-weight: 800;   
+  font-size: 24px;
 }
 .textSpecial {
-  color: #02A9B6;
+  color: #2B8E0D;
   font-family:  Open+Sans;
-  font-weight: 300;   
+  font-weight: 800;   
   font-size: 32px;
 }
 .small-12.medium-6.columns.card2-section {
@@ -327,6 +371,7 @@ ul.menu.headermenu {
    text-align: right;
    margin-top: 10px;
   }
+
 }
 /* Small only */
 @media screen and (max-width: 39.9375em) {

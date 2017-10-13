@@ -39,23 +39,59 @@ li#rata {
 #texto3Card2 span {
   color: #FF336B; }
 
+#abriTextCard1Titulo1, #abriTextCard1Titulo2 {
+  font-family: OpenSans;
+  font-weight: 800;
+  font-size: 32px; }
+
+#abriTextCard1Titulo1 {
+  color: white; }
+
+#abriTextCard1Titulo2 {
+  color: #105800; }
+
+#abriTextCard1Parrafo {
+  font-family: OpenSans;
+  font-weight: 400;
+  font-size: 16px;
+  color: #104500; }
+
+#abriTextCard2Parrafo {
+  font-family: OpenSans;
+  font-weight: 400;
+  font-size: 16px;
+  color: #EBEBEB; }
+
+#abriTextCard2Titulo {
+  font-family: OpenSans;
+  font-weight: 800;
+  font-size: 32px;
+  color: #61BB46; }
+
+#abriTextCard3Parrafo {
+  font-family: OpenSans;
+  font-weight: 600;
+  font-size: 32px;
+  color: #145700; }
+
 #card21Div {
-  background: #F7F7F7; }
+  background: #429321;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #429321 0%, #b4ec51 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #429321 0%, #b4ec51 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #429321 0%, #b4ec51 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=0 );
+  /* IE6-9 */ }
 
 #card22Div {
-  background: #F0F0F0; }
+  background: #145700; }
 
 #card23Div {
-  background: #f9f9f9;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #f9f9f9 0%, #d8d8d8 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #f9f9f9 0%, #d8d8d8 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #f9f9f9 0%, #d8d8d8 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#d8d8d8',GradientType=0 );
-  /* IE6-9 */ }
+  background-image: url("assets/fondo.jpg");
+  background-size: cover; }
 
 div#example-menu {
   height: 100%;
@@ -70,7 +106,7 @@ div#example-menu {
 
 .top-bar .menu > li:not(.menu-text) > a {
   padding: 1rem;
-  color: #02A9B6;
+  color: #868686;
   font-weight: normal; }
 
 .top-bar .menu li:not(:last-child) {
@@ -85,7 +121,7 @@ div#example-menu {
   padding-right: 40px; }
 
 .headermenu a, .headermenu p {
-  color: #02A9B6;
+  color: #868686;
   font-weight: bold; }
 
 div#example-menu {
@@ -99,11 +135,11 @@ div#example-menu {
   background: transparent; }
 
 .footer, .footer-container {
-  background: white;
+  background: #2B8E0D;
   padding: 10px; }
 
 .row.footer-container {
-  background: white; }
+  background: #2B8E0D; }
 
 .footerSocial {
   padding-top: 20px; }
@@ -140,7 +176,7 @@ a::after {
   padding-top: 0px; }
 
 .headermenu a, .headermenu p {
-  color: #02A9B6;
+  color: #868686;
   font-weight: bold; }
 
 .card-section {
@@ -148,22 +184,21 @@ a::after {
   padding: 10px 20px 10px 20px; }
 
 .card-section p {
-  color: #767E8B; }
+  color: #868686; }
 
 .card2-section {
   background: transparent; }
 
 .card-section h5 {
-  color: #FF336B;
-  text-transform: uppercase;
+  color: #2B8E0D;
   font-family: OpenSans;
-  font-weight: 300;
-  font-size: 32px; }
+  font-weight: 800;
+  font-size: 24px; }
 
 .textSpecial {
-  color: #02A9B6;
+  color: #2B8E0D;
   font-family: OpenSans;
-  font-weight: 300;
+  font-weight: 800;
   font-size: 32px; }
 
 .small-12.medium-6.columns.card2-section {
