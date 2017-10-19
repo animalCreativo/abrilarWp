@@ -36,6 +36,8 @@ $orbit-bulletcoloractive: #3893FF;
 body {
   background: $body-background;
   font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 header{
   background: $header-background;
@@ -62,8 +64,8 @@ li#rata {
 }
 #texto1Card2,#texto2Card2,#texto3Card2 {
   color: $card2-titulocolor;
-  font-family:  Open+Sans;
-  font-weight: 300;   
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;    
   font-size: 32px;
 }
 #texto1Card2:before {
@@ -78,10 +80,16 @@ li#rata {
 #texto3Card2 span {
   color: $card2-titulocolor2;
 }
+.menu-icon::after , .menu-icon:hover::after{
+    background: $footer-background;
+    top: 0;
+    left: 0;
+    box-shadow: 0 7px 0 $footer-background, 0 14px 0 $footer-background;
+}
 
 
 #abriTextCard1Titulo1, #abriTextCard1Titulo2{
-  font-family:  Open+Sans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 800;   
   font-size: 32px;
 }
@@ -94,27 +102,27 @@ li#rata {
 }
 
 #abriTextCard1Parrafo{
-  font-family:  Open+Sans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;   
   font-size: 16px;
   color: #104500;
 }
 
 #abriTextCard2Parrafo{
-  font-family:  Open+Sans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;   
   font-size: 16px;
   color: #EBEBEB;
 }
 #abriTextCard2Titulo{
-  font-family:  Open+Sans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 800;   
   font-size: 32px;
   color: #61BB46;
 }
 
 #abriTextCard3Parrafo{
-  font-family:  Open+Sans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;   
   font-size: 32px;
   color: #145700;
@@ -122,20 +130,17 @@ li#rata {
 
 
 #card21Div {
-
 background: #429321; /* Old browsers */
 background: -moz-linear-gradient(top, #429321 0%, #b4ec51 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, #429321 0%,#b4ec51 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, #429321 0%,#b4ec51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429321', endColorstr='#b4ec51',GradientType=0 ); /* IE6-9 */
-
 }
 #card22Div {
   background: #145700;
   
 }
 #card23Div {
-
   background-image: url('assets/fondo.jpg');
   background-size: cover;
 
@@ -154,7 +159,8 @@ div#example-menu {
 .top-bar .menu > li:not(.menu-text) > a {
     padding: 1rem;
     color: $header-textcolor;
-    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 
 }
 .top-bar .menu li:not(:last-child) {
@@ -173,7 +179,8 @@ div#example-menu {
 
 .headermenu a, .headermenu p {
   color: $header-textcolor;
-  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 
 }
 div#example-menu {
@@ -241,7 +248,8 @@ a::after {
 
 .headermenu a, .headermenu p {
   color: $header-textcolor;
-  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
 .card-section {
@@ -259,13 +267,13 @@ a::after {
 
 .card-section h5 {
   color: #2B8E0D;
-  font-family:  Open+Sans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 800;   
   font-size: 24px;
 }
 .textSpecial {
   color: #2B8E0D;
-  font-family:  Open+Sans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 800;   
   font-size: 32px;
 }
@@ -299,12 +307,12 @@ button.hollow.button {
 }
 .card2-section p {
   color: $card2-textcolor;
-  font-family:  Open+Sans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;   
   font-size: 21px;
 }
 #textoCard2Parrafo {
-  font-family:  Open+Sans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;   
   font-size: 16px;
 }
@@ -321,7 +329,8 @@ button.hollow.button.button2 {
   text-align: right;
   margin-top: 20px;
   font-size: 15px;
-  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
   }
 
 ul.menu.headermenu {
@@ -335,14 +344,16 @@ ul.menu.headermenu {
 #error-404Title p  {
   color: $h3-404;
   font-size: 48px;
-  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
 #error-404 p {
   color: $p-404;
   font-size: 24px;
-  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 .img-circle {
@@ -392,6 +403,23 @@ ul.menu.headermenu {
   #menuFooterMobile {
     padding: 0px;
   }
+
+  #rowMobile{
+  margin-right: 0px;
+  margin-left: 0px;
+  }
+
+  
+  .title-bar {
+    width: 100vw;
+    padding-right: 20px;
+    /* background-color: white; */
+}
+
+.top-bar.headermenu.sticky {
+    height: auto;
+}
+
 }
 
 
